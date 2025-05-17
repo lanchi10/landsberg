@@ -237,6 +237,7 @@
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
+            margin-bottom: 20px;
         }
 
         .tool-btn {
@@ -251,6 +252,8 @@
             font-weight: bold;
             transition: all 0.3s ease;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            min-width: 200px;
+            justify-content: center;
         }
 
         .tool-btn:hover {
@@ -347,34 +350,7 @@
             <h2>ענפי משפחת לנדסברג</h2>
             <p style="color: #333;">ברוכים הבאים לאתר המשפחתי! כאן תוכלו לגשת לכל ענפי המשפחה, לצפות במידע על בני המשפחה, תאריכי לידה ופרטי קשר.</p>
             <div class="family-grid">
-                <a href="https://lanchi10.github.io/safi/" class="family-card card-1">
-                    <div class="card-header">
-                        <h3>משפחת אליסף</h3>
-                        <span class="ribbon">משפחה</span>
-                    </div>
-                    <div class="card-body">
-                        <div>
-                            <div class="family-info">משפחת יהודית ואליסף רמות</div>
-                            <div class="card-icon">👨‍👩‍👧‍👦</div>
-                        </div>
-                        <div class="btn">כניסה לדף המשפחה</div>
-                    </div>
-                </a>
-                
-                <a href="https://lanchi10.github.io/gotliv/" class="family-card card-2">
-                    <div class="card-header">
-                        <h3>משפחת עופרה</h3>
-                        <span class="ribbon">משפחה</span>
-                    </div>
-                    <div class="card-body">
-                        <div>
-                            <div class="family-info">משפחת עופרה גוטליב</div>
-                            <div class="card-icon">👨‍👩‍👧</div>
-                        </div>
-                        <div class="btn">כניסה לדף המשפחה</div>
-                    </div>
-                </a>
-                
+                <!-- שורה ראשונה - לנצי, רלי, אליסף -->
                 <a href="https://lanchi10.github.io/eli/" class="family-card card-3">
                     <div class="card-header">
                         <h3>משפחת לנצי 1</h3>
@@ -403,6 +379,35 @@
                     </div>
                 </a>
                 
+                <a href="https://lanchi10.github.io/rali/" class="family-card" style="background: linear-gradient(45deg, #FF6B6B, #FFE66D);">
+                    <div class="card-header" style="background: linear-gradient(45deg, #614385, #516395);">
+                        <h3>משפחת רלי</h3>
+                        <span class="ribbon">משפחה</span>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="family-info">משפחת רלי רמות</div>
+                            <div class="card-icon">👨‍👩‍👧‍👦</div>
+                        </div>
+                        <div class="btn">כניסה לדף המשפחה</div>
+                    </div>
+                </a>
+                
+                <a href="https://lanchi10.github.io/safi/" class="family-card card-1">
+                    <div class="card-header">
+                        <h3>משפחת אליסף</h3>
+                        <span class="ribbon">משפחה</span>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="family-info">משפחת יהודית ואליסף רמות</div>
+                            <div class="card-icon">👨‍👩‍👧‍👦</div>
+                        </div>
+                        <div class="btn">כניסה לדף המשפחה</div>
+                    </div>
+                </a>
+                
+                <!-- שורה שנייה - אחיקם, עופרה -->                
                 <a href="https://lanchi10.github.io/achikam/" class="family-card card-5">
                     <div class="card-header">
                         <h3>משפחת אחיקם</h3>
@@ -417,15 +422,15 @@
                     </div>
                 </a>
                 
-                <a href="https://lanchi10.github.io/rali/" class="family-card" style="background: linear-gradient(45deg, #FF6B6B, #FFE66D);">
-                    <div class="card-header" style="background: linear-gradient(45deg, #614385, #516395);">
-                        <h3>משפחת רלי</h3>
+                <a href="https://lanchi10.github.io/gotliv/" class="family-card card-2">
+                    <div class="card-header">
+                        <h3>משפחת עופרה</h3>
                         <span class="ribbon">משפחה</span>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="family-info">משפחת רלי רמות</div>
-                            <div class="card-icon">👨‍👩‍👧‍👦</div>
+                            <div class="family-info">משפחת עופרה גוטליב</div>
+                            <div class="card-icon">👨‍👩‍👧</div>
                         </div>
                         <div class="btn">כניסה לדף המשפחה</div>
                     </div>
@@ -440,12 +445,22 @@
             <div class="tools-buttons">
                 <a href="https://docs.google.com/spreadsheets/d/1d4zYll-Ttn0ML_K6c-tXc_LiwWlU_a6_7ajslqJpkTs/edit?usp=sharing" target="_blank" class="tool-btn">
                     <span class="tool-icon">📊</span>
-                    <span>צפייה בטבלת הנתונים המשפחתית</span>
+                    <span>טבלת הנתונים המשפחתית</span>
                 </a>
                 
                 <a href="https://forms.fillout.com/t/6xBzuvaWtJus" target="_blank" class="tool-btn">
                     <span class="tool-icon">📝</span>
                     <span>מילוי טופס עדכון פרטים</span>
+                </a>
+                
+                <a href="https://docs.google.com/spreadsheets/d/1kTpF-EYhUJPspkrTA5gRIdBVnmoJBQcRi0CjqpK7OrY/edit?usp=sharing" target="_blank" class="tool-btn">
+                    <span class="tool-icon">📅</span>
+                    <span>ימי הולדת עברי</span>
+                </a>
+                
+                <a href="https://docs.google.com/spreadsheets/d/1IH0UcRN5x2Ma3dUbGSwTkK1IMCxVU6DiC33rRWzRtiw/edit?usp=sharing" target="_blank" class="tool-btn">
+                    <span class="tool-icon">🎂</span>
+                    <span>ימי הולדת לועזי</span>
                 </a>
             </div>
         </section>
@@ -455,7 +470,9 @@
             <div class="footer-links">
                 <a href="https://docs.google.com/spreadsheets/d/1d4zYll-Ttn0ML_K6c-tXc_LiwWlU_a6_7ajslqJpkTs/edit?usp=sharing" target="_blank">טבלת נתונים</a> |
                 <a href="https://forms.fillout.com/t/6xBzuvaWtJus" target="_blank">עדכון פרטים</a> |
-                <a href="https://www.canva.com/design/DAGIkbIIskU/KXQNJocMZ5lVgCKa-bqKlA/view?utm_content=DAGIkbIIskU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcb09c72a32" target="_blank">מצגת משפחתית</a>
+                <a href="https://www.canva.com/design/DAGIkbIIskU/KXQNJocMZ5lVgCKa-bqKlA/view?utm_content=DAGIkbIIskU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hcb09c72a32" target="_blank">מצגת משפחתית</a> |
+                <a href="https://docs.google.com/spreadsheets/d/1kTpF-EYhUJPspkrTA5gRIdBVnmoJBQcRi0CjqpK7OrY/edit?usp=sharing" target="_blank">ימי הולדת עברי</a> |
+                <a href="https://docs.google.com/spreadsheets/d/1IH0UcRN5x2Ma3dUbGSwTkK1IMCxVU6DiC33rRWzRtiw/edit?usp=sharing" target="_blank">ימי הולדת לועזי</a>
             </div>
             <div class="version-info">
                 גרסה V1 | עודכן: 14/05/2025
